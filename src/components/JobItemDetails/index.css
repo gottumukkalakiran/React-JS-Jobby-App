@@ -1,0 +1,129 @@
+.job-card-details-container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.item-details {
+  width: 80%;
+  max-width: 1500px;
+  background-color: #272727;
+  margin-top: 60px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.website-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.website {
+  font-size: 18px;
+  margin-right: 10px;
+}
+.website-link2 {
+  text-decoration: none;
+}
+
+.job-description1 {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.job-description2 {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 40px;
+}
+
+.skill-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 20px;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.skill-card {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.job-description-text1 {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 500;
+  margin-left: 15px;
+}
+.job-description-text3 {
+  color: #ffffff;
+  width: 600px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  margin-left: 15px;
+  line-height: 2;
+  align-self: center;
+  font-size: 17px;
+}
+
+.office {
+  display: flex;
+  justify-content: space-between;
+}
+
+.company-building {
+  width: 400px;
+}
+
+.similar-products-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 28px;
+  font-weight: 500;
+  margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .similar-products-heading {
+    font-size: 32px;
+    margin-top: 40px;
+  }
+}
+
+.similar-products-list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-left: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .similar-products-list {
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .similar-products-list {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.similar-container {
+  width: 80%;
+  max-width: 1500px;
+}
